@@ -1,0 +1,31 @@
+.headWrap {
+    width: cover;
+    height: 100px;
+    background-color: black;
+}
+
+.headLogo {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+.headLogo a {
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+}
+
+.headRefs {
+    float: right;
+    margin-top: 35px;
+    margin-right: 50px;
+}
+.headRefs a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    margin-right: 60px;
+}
+.headRefs a:hover {
+    color: rgb(1, 175, 1);
+}

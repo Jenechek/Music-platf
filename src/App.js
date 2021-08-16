@@ -1,23 +1,16 @@
 import style from './App.module.css';
+import { Switch, Route, Redirect } from 'react-router-dom'
 import Registration from './components/Registration/Registration';
 import Login from './components/Login/Login';
-import HelloUser from './components/HelloUser/HelloUser';
-import Footer from './components/Footer/Footer';
-import fonImg from './images/ed-sheeran.jpg'
-import { Switch, Route } from 'react-router-dom'
-import Head from './components/Head/Head';
+import Hello from './components/Hello/Hello'
 
 function App() {
   return (
     <div className={style.App}>
-      <Head />
-      <div className={style.content}>
-        <img src={fonImg} alt='' />
-        <HelloUser />
-      </div>
-      <div>
-        <Footer />
-      </div>
+      <Redirect from='/' to='/hello' />
+      <Route path='/hello' render={() => { return <Hello />}} />
+      <Route path='/login' render={() => { return <Login /> }} />
+      <Route path='/registr' render={() => { return <Registration /> }} />
     </div>
   );
 }

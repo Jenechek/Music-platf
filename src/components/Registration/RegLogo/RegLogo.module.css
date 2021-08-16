@@ -1,0 +1,35 @@
+.regHeadWrap {
+    border-bottom: rgb(209, 209, 209) solid 1px;
+}
+
+.regHead {
+    padding: 30px 0 10px 0;
+}
+.regHead a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.headText {
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.inVK {
+    padding: 20px 0 30px 0;
+}
+.inVK a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(45, 121, 45);
+    font-size: 22px;
+    padding: 10px 40px;
+    border-radius: 40px;
+}
+.inVK a:hover {
+    background-color: rgb(59, 184, 59);
+}
