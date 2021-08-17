@@ -1,4 +1,4 @@
-import style from './RegButtons.module.css'
+import style from './RegButtons.module.scss'
 import { NavLink } from 'react-router-dom';
 
 const RegButtons = (props) => {

@@ -1,4 +1,4 @@
-import style from './Login.module.css'
+import style from './Login.module.scss'
 import LoginHead from './LoginHead/LoginHead';
 import Loginner from './Loginner/Loginner'
 import Inputs from './Inputs/Inputs';

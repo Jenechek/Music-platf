@@ -1,4 +1,4 @@
-import style from './Registration.module.css'
+import style from './Registration.module.scss'
 import RegLogo from './RegLogo/RegLogo'
 import RegInputs from './RegInputs/RegInputs'
 import DataInputs from './DataInputs/DataInputs'

@@ -1,4 +1,4 @@
-import style from './Inputs.module.css'
+import style from './Inputs.module.scss'
 
 const Inputs = (props) => {
     return (

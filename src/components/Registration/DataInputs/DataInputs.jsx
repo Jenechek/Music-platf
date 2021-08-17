@@ -1,4 +1,4 @@
-import style from './DataInputs.module.css'
+import style from './DataInputs.module.scss'
 
 const DataInputs = (props) => {
     return (

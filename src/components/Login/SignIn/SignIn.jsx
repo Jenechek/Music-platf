@@ -1,4 +1,4 @@
-import style from './SignIn.module.css'
+import style from './SignIn.module.scss'
 
 const SignIn = (props) => {
     return (

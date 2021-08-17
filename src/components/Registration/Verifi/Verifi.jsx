@@ -1,4 +1,4 @@
-import style from './Verifi.module.css'
+import style from './Verifi.module.scss'
 
 const Verifi = (props) => {
     return (

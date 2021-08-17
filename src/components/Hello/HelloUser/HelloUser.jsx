@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import style from './HelloUser.module.css'
+import style from './HelloUser.module.scss'
 import politic from './components/politic.pdf'
 
 const HelloUser = (props) => {

@@ -1,4 +1,4 @@
-import style from './RegLogo.module.css'
+import style from './RegLogo.module.scss'
 import {NavLink} from 'react-router-dom'
 
 const RegLogo = (props) => {

@@ -1,4 +1,4 @@
-import style from './Loginner.module.css'
+import style from './Loginner.module.scss'
 
 const Loginner = (props) => {
     return (

@@ -1,4 +1,4 @@
-import style from './LoginHead.module.css'
+import style from './LoginHead.module.scss'
 import { NavLink } from 'react-router-dom';
 
 const LoginHead = (props) => {

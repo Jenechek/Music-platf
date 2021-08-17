@@ -1,4 +1,4 @@
-import style from './Footer.module.css'
+import style from './Footer.module.scss'
 import facebook from './images/facebook.png'
 import instagram from './images/instagram.png'
 import twitter from './images/twitter.png'

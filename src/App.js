@@ -1,4 +1,4 @@
-import style from './App.module.css';
+import style from './App.module.scss';
 import { Switch, Route, Redirect } from 'react-router-dom'
 import Registration from './components/Registration/Registration';
 import Login from './components/Login/Login';

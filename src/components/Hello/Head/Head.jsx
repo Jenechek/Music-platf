@@ -1,4 +1,4 @@
-import style from './Head.module.css'
+import style from './Head.module.scss'
 
 const Head = (props) => {
     return (

@@ -1,0 +1,20 @@
+.verifiWrap {
+    border-top: rgb(209, 209, 209) solid 1px;
+    text-align: left;
+    form {
+        padding-bottom: 20px;
+        .verifiText {
+            font-size: 16px;
+            font-weight: bold;
+            padding: 15px 0 15px 0;
+        }
+        label {
+            padding-right: 50px;
+        }
+    }
+}
+
+.politic {
+    border-top: rgb(209, 209, 209) solid 1px;
+    padding: 20px 0 40px 0;
+}

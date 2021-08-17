@@ -1,0 +1,48 @@
+.loginner {
+    padding: 25px 0;
+    font-size: 20px;
+    font-weight: bold;
+    a {
+        margin: 0 auto;
+        font-size: 18px;
+        transition: 0.5s;
+        text-decoration: none;
+        display: block;
+        padding: 15px;
+        margin-top: 15px;
+        border-radius: 40px;
+        border: rgb(104, 104, 104) solid 1px;
+    }
+    .google {
+        background-color: white;
+        color: rgb(104, 104, 104);
+        width: 360px;
+        &:hover {
+            background-color: rgb(104, 104, 104);
+            color: white;
+            transition: 0.5s;
+        }
+    }
+    .vk {
+        background-color: #3b5998;
+        color: white;
+        width: 360px;
+        &:hover {
+            background-color: #547bcf;
+            transition: 0.5s;
+        }
+    }
+}
+
+.orWrap {
+    display: flex;
+    width: 400px;
+    margin: 0 auto;
+    .orText {
+        position: absolute;
+        right: 50%;
+        top: 328px;
+        font-size: 16px;
+        color: rgb(128, 128, 128);
+    }
+}

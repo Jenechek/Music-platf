@@ -1,0 +1,43 @@
+.footWrap {
+    display: flex;
+    justify-content: center;
+    width: cover;
+    height: 330px;
+    background-color: black;
+}
+
+.logo {
+    display: flex;
+    padding: 50px;
+    a {
+        text-decoration: none;
+        font-size: 40px;
+        color: white;
+    }
+}
+
+.block {
+    padding: 40px;
+    a {
+        display: block;
+        padding: 15px;
+        color: white;
+        font-size: 18px;
+        text-decoration: none;
+        &:hover {
+            color: rgb(1, 175, 1);
+        }
+    }
+}
+
+.mes {
+    padding: 30px;
+    img {
+        display: block;
+        width: 40px;
+        padding: 15px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

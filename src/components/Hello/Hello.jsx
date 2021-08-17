@@ -1,4 +1,4 @@
-import style from './Hello.module.css'
+import style from './Hello.module.scss'
 import Footer from './Footer/Footer';
 import Head from './Head/Head';
 import HelloUser from './HelloUser/HelloUser';
